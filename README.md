@@ -4,43 +4,25 @@
 
 ###### **HTML Code Repair Exercise**
 
-
-
-**GitHub Authentication Instructions**
-
-
-
-Use the GitHub credentials provided for this activity. When Git prompts for authentication, enter the appropriate username and personal access token (PAT) as instructed.
-
-
-
-**- GitHub username:** angel-sitesphil
-
-**- Email:** angel@sitespil.com
-
-**- Personal Access Token (PAT):** github\_pat\_11B6EFRXY0rxNsJ8VjffU9\_lCRWuCP7hawhAJ5mu8AjNuAHV5SFMyfX7lkXNL1PaOMOFGOUOYGIPSssOiw
-
-
-
 ###### 
 
 ###### **Activity Instructions**
 
 
 
-1\. Clone the class repository.
+1. Accept the GitHub repository invitation sent by your instructor.
 
-2\. Create your own branch using your name.
+2\. Clone the class repository using the Git command below.
 
-3\. Open `repair.exercise.html` using Notepad or any text editor.
+3\. Enter the project folder and create your own branch using your name.
 
-4\. Identify and fix all errors in the HTML code.
+4\. Open repair.exercise.html using Notepad or any text editor.
 
-5\. Save and test the repaired page in a web browser.
+5\. Identify and fix all errors in the HTML code.
 
-6\. Commit and push your changes to your own branch.
+6\. Save your changes and test the repaired page in a web browser.
 
-###### 
+7\. Stage and commit your changes, then push your branch to GitHub.
 
 ###### 
 
@@ -75,7 +57,7 @@ Use the GitHub credentials provided for this activity. When Git prompts for auth
 
 
 
-**Permission denied (403):** Check your authentication and confirm that your instructor has granted the necessary repository permissions.
+**Permission denied (403):** Confirm that you accepted the invitation, your account has write access, and Git is using your own GitHub credentials.
 
 
 
