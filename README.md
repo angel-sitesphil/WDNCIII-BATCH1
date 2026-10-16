@@ -35,6 +35,7 @@
 **Enter project folder:** cd WDNCIII-BATCH1
 
 **Create your branch:** git switch -c your-name
+**Display current branch:** git branch
 
 **Open exercise:** notepad repair.exercise.html
 
