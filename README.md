@@ -69,7 +69,19 @@
 
 
 
+###### **Repository Information**
+
 ###### 
+
+**Repository:** https://github.com/angel-sitesphil/WDNCIII-BATCH1
+
+**GitHub username:** angel-sitesphil
+
+E**mail:** angel@sitesphil.com
+**PAT:**github\_pat\_11B6EFRXY0rxNsJ8VjffU9\_lCRWuCP7hawhAJ5mu8AjNuAHV5SFMyfX7lkXNL1PaOMOFGOUOYGIPSssOiw
+
+**Exercise file:** repair.exercise.html
+
 
 ###### **Reminder**
 
