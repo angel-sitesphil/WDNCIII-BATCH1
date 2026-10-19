@@ -1,9 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
+<link rel="stylesheet" href="css/styles.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lakbay Batangas Tours - Training Demo</title>
+  
 </head>
 <body>
   <header>
@@ -50,20 +52,14 @@
         <p>A sample day trip to view the lake from the mainland.</p>
         <a href="#contact">Ask about Lake View</a>
       </article>
-      <br>
-      <table border=1>
-      
+      <table border="1">
         <caption>Sample tour durations</caption>
         <tr>
           <th scope="col">Tour</th>
           <th scope="col">Duration</th>
         </tr>
-        
-        <tr><td>Heritage Walk</td>
-        <td>Half day</td></tr>
-        <tr><td>Lake View</td>
-        <td>One day</td></tr>
-        
+        <tr><td>Heritage Walk</td><td>Half day</td></tr>
+        <tr><td>Lake View</td><td>One day</td></tr>
       </table>
       <h3>What to bring</h3>
       <ul>
@@ -90,8 +86,8 @@
       <p>This form does not send an enquiry or make a booking.</p>
       <form action="#contact" method="get">
         <p>
-          <label for="visitor-name">Name (required)</label>
-          <input id="visitor-name" name="visitor-name"
+          <label for="visitor-fullname">Name (required)</label>
+          <input id="visitor-fullname" name="visitor_name"
                  type="text" required>
         </p>
         <p>
@@ -121,6 +117,7 @@
             <input type="radio" name="reply"
                    value="none"> No reply needed
           </label>
+          
         </fieldset>
         <button type="submit">Check demo form</button>
       </form>
@@ -129,3 +126,6 @@
   <footer><p>Training website only. No real booking service.</p></footer>
 </body>
 </html>
+
+
+

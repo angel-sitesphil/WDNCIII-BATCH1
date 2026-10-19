@@ -41,7 +41,7 @@
 
 **Check changes:** git status
 
-**Stage changes:** git add repair.exercise.html
+**Stage changes:** git add repair.exercise.html git amain 
 
 **Commit repairs:** git commit -m "Fix code repair exercise"
 
