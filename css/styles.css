@@ -19,6 +19,10 @@ font-size: 3rem;
 }
 
 a{
-    color: rgb(0, 0, 0);
+    color: rgb(0, 17, 255);
     font-size: 3rem;
+}
+
+li{
+font-size: 2rem;
 }
