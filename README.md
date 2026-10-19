@@ -1,14 +1,10 @@
 #### **WEB DEVELOPMENT NC III – BATCH 1 - WEEK 11**
 
-
-
 ###### **HTML Code Repair Exercise**
 
-###### 
+######
 
 ###### **Activity Instructions**
-
-
 
 1. Accept the GitHub repository invitation sent by your instructor.
 
@@ -24,11 +20,9 @@
 
 7\. Stage and commit your changes, then push your branch to GitHub.
 
-###### 
+######
 
 ###### **Required Git Commands**
-
-
 
 **Clone repository:** git clone https://github.com/angel-sitesphil/WDNCIII-BATCH1.git
 
@@ -47,46 +41,38 @@
 
 **Push your branch:** git push -u origin your-name
 
+_Note: Replace **`your-name`** with your own name using lowercase letters and hyphens instead of spaces._
 
-*Note: Replace **`your-name`** with your own name using lowercase letters and hyphens instead of spaces.*
-
-
-
-###### 
+######
 
 ###### **Troubleshooting**
 
-
-
 **Permission denied (403):** Confirm that you accepted the invitation, your account has write access, and Git is using your own GitHub credentials.
-
-
 
 **Nothing to commit:** Ensure that you edited and saved `repair.exercise.html`.
 
-
-
 **Push rejected:** Check your branch name and contact your instructor if the problem persists.
-
-
 
 ###### **Repository Information**
 
-###### 
+######
 
 **Repository:** https://github.com/angel-sitesphil/WDNCIII-BATCH1
 
 **GitHub username:** angel-sitesphil
 
 E**mail:** angel@sitesphil.com
-**PAT:**github\_pat\_11B6EFRXY0rxNsJ8VjffU9\_lCRWuCP7hawhAJ5mu8AjNuAHV5SFMyfX7lkXNL1PaOMOFGOUOYGIPSssOiw
+**PAT:**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
 
 **Exercise file:** repair.exercise.html
 
-
 ###### **Reminder**
 
+_Work only on your own branch. Do not modify another student's work or push directly to the **`main`** branch._
 
-
-*Work only on your own branch. Do not modify another student's work or push directly to the **`main`** branch.*
-
+wrong codes:
+1 wrong filename of photo from missingphoto.jpg to taal-lake.jpg
+2 href of heritage walk contacts instead of contact
+3 input type for email is text instead of email
+4 the duration is td instead of th 5. it is button type = "submit" insted of input type = "submit"
+5 the label is visitor-fullname but the declared id is <input id="visitor-name"

@@ -1,0 +1,24 @@
+h1 {
+    color: rgb(94, 20, 2);
+    font-size: 8rem;
+}
+
+h2 {
+    color: rgb(29, 2, 124);
+    font-size: 6rem;
+}
+
+h3{
+color: black;
+font-size: 4rem;
+
+}
+p{
+color: rgb(97, 95, 95);
+font-size: 3rem;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+}
