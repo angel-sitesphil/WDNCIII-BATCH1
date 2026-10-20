@@ -1,0 +1,18 @@
+html{
+scroll-behavior: smooth;
+}
+
+h1{
+ color:blacks;
+ font-size: 4rem;}
+ h2{color:black;}
+  
+  #contact {background-color:lightgray;}
+  #home {background-color :#5c8fb0; font:serif}
+   #why-us{background-color:lightgray;}
+   #about{background-color:lightgray;}
+  #tours{background-color:lightgray;}
+   h1,h2,h3,h4{line-height: 1.2;}
+nav a {margin-right: 15px;}
+.tiil {background-color:#5c8fb0;}
+.h4tag {font:serif;}
