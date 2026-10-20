@@ -32,8 +32,18 @@ a{
 li{
 font-size: 2rem;
 }
-nav a {
-    margin-right: 120px;
+
+.main-nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav a {
+    text-decoration: none;
 }
 
 #contact {
@@ -57,20 +67,25 @@ nav a {
     background-color: rgb(230, 249, 175);
 }
 
-nav {
-    
-    background-color: rgb(0, 0, 0);
-    color: white;
-    padding: 12px;
-    }
+header{
+background-color: rgb(153, 153, 153);
+border-radius: 10px;
+padding-inline: 10px;
+}
 
     nav a:hover {
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0);
+         color: white;
+         transition: 3ms ease;
 
     }
+   
 
     figcaption{
+        font-style: italic;
+        font-style: oblique;
+        font-size: 2rem;
+        text-align: left;
           opacity: 0;
     transition: opacity 0.3s ease;
     }
@@ -90,7 +105,7 @@ nav {
     }
     .tour-card:hover{
 
-        background-color:auto;
+        background-color: violet;
         color: contrast-color(var(--bg-color));
     }
 
