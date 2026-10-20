@@ -1,5 +1,58 @@
 
 h1  {
-  color:#2C6B67;
+  color:#17365d;
   font-size:3rem;
+  }
+
+.tour-card {
+  background-color:#b0d5e5;
+  }
+
+#contact {
+  background-color:#b0d5e5;
+  }
+
+h1, h2, h3 {
+  line-height:1.2;
+  }
+
+nav a {
+  margin-right:20px;
+  }
+
+.intro {
+  font-weight: normal;
+  }
+
+.intro {
+  font-weight: bold;
+  }
+  
+p {
+  color:#174ea6;
+}
+
+.intro {
+  color:#192cff;
+}
+.ptag {
+  color:#ffff5c;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #17365d;
+}
+
+.h2tag {
+  background-color:#b0d5e5;
+}
+
+table, td, th {
+  border: 1px solid;
+  padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
 }
