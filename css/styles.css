@@ -1,10 +1,93 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body p{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.container{
+    text-align: center;
+}
+
+.UL .OL{
+      display: inline-block;
+  text-align: left;
+}
+
 h1{
-    color: #4caf50;
+    color: #2e302e;
     font-size: 2.5rem;
+    text-align: center;
+}
+
+.intro{
+    color: rgb(89, 89, 250);
+    text-align: center;
+}
+
+p{
+    color: #174ea6;
+}
+
+.tbl{
+    margin-top: 10px;
+}
+table caption{
+    margin-bottom: 10px;
+}
+
+.tour-card p{
+    background-color: #ffff;
+    color: red;
+    
+}
+
+#contact{
+    padding-left: 100px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    background-color: #6994eb;
+    display: inline-block;
+    width: 50%;
+    border: 1px solid;
+    border-radius: 20px;
+    color: rgb(70, 26, 26);
+}
+
+#contact input, textarea{
+    border-radius: 20px;
+    border: 1px solid green;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#tour{
+    border-radius: 10px;
+    border: 1px solid green;
+    color: rgb(70, 26, 26);
+}
+
+
+h1, h2, h3{
+    line-height: 1.2;
+}
+
+nav{
+    text-align: center;
+    
 }
 
 nav a{
-    margin-right: 20px;
+    padding: 14px 16px;
+}
+
+.btn{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid green;
+    color: rgb(70, 26, 26);
 }
 
 a {
@@ -17,4 +100,14 @@ a:hover {
   font-size: 18px;
   text-decoration: underline;
   text-decoration-color: #4caf50;
+}
+
+fieldset{
+    border-radius: 20px;
+    background-color: #4caf50;
+    border: 1px solid black;
+}
+
+legend{
+    background-color: yellow;
 }
