@@ -10,7 +10,7 @@
 
 
 
-1. Accept the GitHub repository invitation sent by your instructor.
+1\. Accept the GitHub repository invitation sent by your instructor.
 
 2\. Clone the class repository using the Git command below.
 
