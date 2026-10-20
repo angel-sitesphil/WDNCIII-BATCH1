@@ -62,7 +62,6 @@ _Note: Replace **`your-name`** with your own name using lowercase letters and hy
 **GitHub username:** angel-sitesphil
 
 E**mail:** angel@sitesphil.com
-**PAT:**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
 
 **Exercise file:** repair.exercise.html
 

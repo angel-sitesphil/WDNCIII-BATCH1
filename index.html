@@ -22,54 +22,63 @@
       <section id="home">
         <h2>Welcome</h2>
         <p>Explore our sample Batangas day-trip ideas.</p>
-        <a href="#packages">View the sample tour packages</a>
+        <a href="#packages" title="Click to view packages"
+          >View the sample tour packages</a
+        >
       </section>
       <section id="about">
         <h2>About our tours</h2>
         <p>We help visitors plan a Batangas day trip.</p>
-        <figure>
+        <figure class="taallake">
           <img
             src="assets/taal-lake.jpg"
-            alt="Taal Lake at sunset"
+            alt="Taal Lake at Sunset"
+            title="Taal lake at Sunset"
             width="620"
           />
           <figcaption>Taal Lake, Batangas.</figcaption>
         </figure>
         <p>
           Photo: Talynhaga,
-          <a href="https://commons.wikimedia.org/wiki/File:Taal_Lake.jpg">
+          <a
+            href="https://commons.wikimedia.org/wiki/File:Taal_Lake.jpg"
+            title="Click to follow link"
+          >
             Taal Lake</a
           >,
-          <a href="https://creativecommons.org/licenses/by-sa/4.0/">
+          <a
+            href="https://creativecommons.org/licenses/by-sa/4.0/"
+            title="Click to follow link"
+          >
             CC BY-SA 4.0</a
           >. Original image, displayed smaller.
         </p>
       </section>
       <section id="packages">
         <h2>Tour packages</h2>
-        <article>
+        <article class="tour-card">
           <h3>Heritage Walk</h3>
           <p>A sample half-day walking tour with a guide.</p>
           <a href="#contact">Ask about Heritage Walk</a>
         </article>
-        <article>
+        <article class="tour-card">
           <h3>Lake View</h3>
           <p>A sample day trip to view the lake from the mainland.</p>
           <a href="#contact">Ask about Lake View</a>
         </article>
-        <table>
+        <table class="tablemain" border="1">
           <caption>
             Sample tour durations
           </caption>
-          <tr>
+          <tr class="table-header">
             <th scope="col">Tour</th>
             <th scope="col">Duration</th>
           </tr>
-          <tr>
+          <tr class="table-son">
             <td>Heritage Walk</td>
             <td>Half day</td>
           </tr>
-          <tr>
+          <tr class="table-son">
             <td>Lake View</td>
             <td>One day</td>
           </tr>
@@ -97,14 +106,28 @@
         <h2>Contact</h2>
         <p>Local training demo. Use fictional details only.</p>
         <p>This form does not send an enquiry or make a booking.</p>
-        <form action="#contact" method="get">
+        <form class="form137" action="#contact" method="get">
           <p>
             <label for="visitor-name">Name (required)</label>
-            <input id="visitor-name" name="visitor-name" type="text" required />
+            <input
+              id="visitor-name"
+              name="visitor-name"
+              placeholder="Your name"
+              rows="35"
+              columns="90"
+              type="text"
+              required
+            />
           </p>
           <p>
             <label for="email">Email (required)</label>
-            <input id="email" name="email" type="email" required />
+            <input
+              id="email"
+              name="email"
+              placeholder="Your email"
+              type="email"
+              required
+            />
           </p>
           <p>
             <label for="tour">Tour (required)</label>
@@ -116,7 +139,15 @@
           </p>
           <p>
             <label for="message">Message (optional)</label>
-            <textarea id="message" name="message" rows="3" cols="30"></textarea>
+            <br />
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Your message"
+              font-size="64px"
+              rows="15"
+              cols="90"
+            ></textarea>
           </p>
           <fieldset>
             <legend>Reply preference</legend>
@@ -127,7 +158,7 @@
               <input type="radio" name="reply" value="none" /> No reply needed
             </label>
           </fieldset>
-          <input type="submit" name="submit" value="Check demo form" />
+          <input type="submit" name="submit" value="Submit" />
         </form>
       </section>
     </main>
