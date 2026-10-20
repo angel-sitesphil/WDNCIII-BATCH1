@@ -2,10 +2,37 @@ html{
 scroll-behavior: smooth;
 }
 h1{
-  color:violet;
-  font-size:10rem;
-}
+  color:red; font-size:10rem;}
 h2{
-  color:violet;
-}
+  color:violet;}
+  
 
+#contact { 
+    background-color:#3C17C1;
+    }
+#home { 
+    background-color:#FFB800;
+    }
+#about {
+    background-color:#EED51C;
+    }
+#packages {
+    background-color:#295135 ;
+    }
+#why-us {
+    background-color:#6C1B87 ;
+    }
+
+    
+    h1,h2,h3{line-height: 1.2;}
+    nav a {margin-right: 12px;}
+  
+p {color:#ffffff;}
+  .intro{ color:#FFB800;} 
+p {color:#ffffff ;}
+  .tour-card{ color:#000000;}
+
+body { 
+  font-family: Arial,sans-serif;
+  color: pink;
+  }
