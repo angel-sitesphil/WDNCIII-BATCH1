@@ -90,3 +90,16 @@ E**mail:** angel@sitesphil.com
 
 *Work only on your own branch. Do not modify another student's work or push directly to the **`main`** branch.*
 
+wrong codes
+1. image directory "missing-photo.jpg"
+2. table (<th scope="col">Tour</th>
+          <td>Duration</td>)
+3. contacts instead of contact
+4. input type in email is text
+5. <p>
+       <label for="visitor-fullname">Name (required)</label>
+       <input id="visitor-name" name="visitor_name"
+                 type="text" required>
+   </p> the value in the label and input are mismatch, (visitor-fullname, visitor-name )
+
+
